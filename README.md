@@ -22,7 +22,7 @@ add your note title and then begin taking notes until you cant note no mo.
 
 press the save icon to save your notes for later.
 
-press the trashcan icon to delete your notes you nolonger need.
+press the trashcan icon to delete your notes you no longer need.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

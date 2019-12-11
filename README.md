@@ -9,7 +9,10 @@ then run "node server.js" in the terminal. you should then be notified "APP list
 
 in your browser type "LOCALHOST:3000" youll then be taken to the note taker app
 
-or follow heroku app
+or follow heroku app link
+
+https://desolate-fortress-51094.herokuapp.com
+
 
 ## Usage
 

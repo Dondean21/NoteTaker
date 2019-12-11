@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const express = require("express");
 const db = require("./db/db.json");
-let x = 1
+
 
 const dbRead = JSON.parse(fs.readFileSync(path.join(__dirname, "/db/db.json"),(err, data)=>{
    if (err) throw err;
@@ -50,9 +50,10 @@ app.get("/notes", function(req,res){
 
 app.get("/api/notes", function(req,res){
    return res.json(dbRead);
-})
+});
 
 // api post and delete
+let x = 1;
 app.post("/api/notes", function(req,res){
    var newNote = req.body;
    newNote.id = x;
@@ -61,7 +62,7 @@ app.post("/api/notes", function(req,res){
    dbWrite(dbRead);
    
    return res.json(dbRead);
-})
+});
 
 app.delete("/api/notes/:id", (req,res)=> {
    let id = req.params.id;

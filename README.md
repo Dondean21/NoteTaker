@@ -9,6 +9,8 @@ then run "node server.js" in the terminal. you should then be notified "APP list
 
 in your browser type "LOCALHOST:3000" youll then be taken to the note taker app
 
+or follow heroku app
+
 ## Usage
 
 press the get started button on the intro page.
@@ -21,5 +23,7 @@ press the trashcan icon to delete your notes you nolonger need.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
 
 Please make sure to update tests as appropriate.

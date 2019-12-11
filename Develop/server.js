@@ -1,9 +1,9 @@
-// DEPENDENCIES
-const express = require("express");
-const path = require("path");
+
 const fs = require("fs");
-let x = 1
+const path = require("path");
+const express = require("express");
 const db = require("./db/db.json");
+let x = 1
 
 const dbRead = JSON.parse(fs.readFileSync(path.join(__dirname, "/db/db.json"),(err, data)=>{
    if (err) throw err;
